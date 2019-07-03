@@ -1,0 +1,422 @@
+.btn {
+	background-color: gray;
+	color: white;
+	border-color: white;
+}
+
+#gallery-section{
+	margin-left:17px;
+	background-color: gainsboro;
+}
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	font-size: 14px;
+	color: #000;
+	overflow-x: hidden;
+	background-color: gainsboro;
+}
+
+#logo{
+	height: 90%;
+	margin-left: -22%;
+}
+
+.navbar-brand {
+
+ width: 10px;
+ height: 10px;
+}
+
+img {
+    max-width: 100%;
+	height: 250px;
+	width: 250px;
+}
+
+
+
+a {
+    outline: 0 !important;
+}
+h1,h2,h3,h4,h5,h6,a,p {
+	word-wrap: break-word;
+}
+
+/* + Fonts Settings */
+@font-face {
+    font-family: 'KaushanScriptRegular';
+    src: url('fonts/KaushanScriptRegular.eot');
+    src: url('fonts/KaushanScriptRegular.eot') format('embedded-opentype'),
+         url('fonts/KaushanScriptRegular.woff2') format('woff2'),
+         url('fonts/KaushanScriptRegular.woff') format('woff'),
+         url('fonts/KaushanScriptRegular.ttf') format('truetype'),
+         url('fonts/KaushanScriptRegular.svg#KaushanScriptRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('fonts/MontserratLight.eot');
+    src: url('fonts/MontserratLight.eot') format('embedded-opentype'),
+         url('fonts/MontserratLight.woff2') format('woff2'),
+         url('fonts/MontserratLight.woff') format('woff'),
+         url('fonts/MontserratLight.ttf') format('truetype'),
+         url('fonts/MontserratLight.svg#MontserratLight') format('svg');
+}
+/* - Padding/Margin */
+.no-padding { padding: 0; }
+.no-left-padding{ padding-left: 0; }
+.no-right-padding { padding-right: 0; }
+.no-top-padding { padding-top: 0; }
+.no-bottom-padding { padding-bottom: 0; }
+.no-margin { margin: 0; }
+.no-left-margin { margin-left: 0; }
+.no-right-margin { margin-right: 0; }
+.no-top-margin { padding-top: 0; }
+.no-bottom-margin { margin-bottom: 0; }
+
+
+.main-container {
+	background-color: gainsboro;
+	width: 1920px;
+	max-width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/* + Header */
+.top-header {
+	background-color: #83A889;
+}
+.top-header .container {
+	position: relative;
+	padding-bottom: 11px;
+	padding-top: 11px;
+}
+.top-header .welcome-text > span {
+	color: #e1e1e1;
+	font-size: 11px;
+	line-height: 24px;
+	letter-spacing: 0.462px;
+}
+.top-header .welcome-text > span + span {
+	margin-left: 50px;
+}
+.top-header .welcome-text > span i {
+	margin-right: 10px;
+	vertical-align: middle;
+	font-size: 18px;
+}
+.top-header .welcome-text > span a {
+	color: #e1e1e1;
+}
+.top-header .social-block {
+	text-align: right;
+	line-height: 28px;
+
+}
+.top-header .social-block > ul li {
+	display: inline-block;
+	margin-left: 22px;
+}
+.top-header .social-block > ul li a {
+	color: #fff;
+}
+
+/* + Footer */
+.footer-main {
+	background-color: #83A889;
+	padding-top: 70px;
+}
+
+/* - Widget */
+.widget-block {
+	margin-bottom: 70px;
+}
+.ftr-widget > h3 {
+	color: #fff;
+	font-family: 'Nixie One', cursive;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 0.84px;
+	margin-top: 0;
+	text-transform: uppercase;
+	margin-bottom: 43px;
+	position: relative;
+}
+
+
+
+/* - Footer Section 2 */
+.footer-section2 .widget-block {
+	margin-bottom: 55px;
+}
+.footer-section2 .ftr_widget_about {
+	padding-right: 60px
+}
+.footer-section2 .ftr-widget > h3 {
+	padding-bottom: 15px;
+	margin-bottom: 33px;
+}
+.footer-section2 .ftr-widget > h3::before {
+	background-color: #ffb215;
+	content: "";
+	height: 2px;
+	width: 45px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.footer-section2 .ftr_widget_about .ftr-about-content {
+	color: #aaaaaa;
+	font-size: 13px;
+	line-height: 24px;
+	letter-spacing: 0.78px;
+}
+.footer-section2 .ftr_widget_about .ftr-about-content a {
+	color: #fff;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.72px;
+	text-decoration: underline;
+}
+.widget_hours > p {
+	font-size: 13px;
+	font-weight: bold;
+	color: #62625D;
+	letter-spacing: 1.56px;
+	padding-bottom: 16px;
+	margin-bottom: 17px;
+	border-bottom: 1px solid #383838;
+}
+.widget_hours > p span {
+	color: #F2C901;
+}
+.widget_hours ul {
+	padding-left: 0;
+	text-align: center;
+	margin-bottom: 0;
+}
+.widget_hours ul li {
+	display: inline-block;
+	margin-left: 11px;
+	margin-right: 11px;
+}
+.widget_hours ul li a {
+	color: #fff;
+	font-size: 11px;
+}
+.widget_hours ul li a:hover {
+	color: #4aa933;
+
+
+}
+.footer-section2 .btm-ftr .container {
+	padding-bottom: 43px;
+	padding-top: 43px;
+	border-top: none;
+}
+
+
+
+/* - SlidePanel */
+#slidepanel { 
+	display: block; 
+}
+#closeit,
+#toggle,
+#slideit {
+	display: none;
+}
+
+
+/* + Section Header */
+.section-header {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 55px;
+}
+.section-header h3 {
+	background-image: url("images/section-header-sep.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	color: #232323;
+	font-family: 'Nixie One', cursive;
+	font-size: 32px;
+	font-weight: bold;
+	letter-spacing: 1.92px;
+	margin-top: 0;
+	padding-bottom: 35px;
+	background: #BDD9C2;
+}
+.section-header h6 {
+	color: #ffb215;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.84px;
+	margin: 0;
+	background:#BDD9C2;
+}
+.section-header2 h3 {
+	background-image: url("images/section-header-sep2.png");
+}
+.section-header2 h6 {
+	color: #fff;
+}
+
+/* + Page Header */
+.page-header {
+	background-color: #BDD9C2;
+	border-bottom: none;
+	padding: 39px 0 36px;
+	margin: 0;
+	text-align: center;
+}
+.page-header .breadcrumb {
+	background-color: transparent;
+	margin-bottom: 0;
+	padding: 0;
+}
+.page-header .breadcrumb > li  {
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1.32px;
+}
+.page-header .breadcrumb > li a {
+	color: #fff;
+	font-family: 'Nixie One', cursive;
+	text-decoration: none;
+}
+.page-header .breadcrumb > li + li::before {
+	content: "\\\\";
+	font-family: FontAwesome;
+	color: #fff;
+	margin-right: 5px;
+}
+
+/* Pagination */
+.ow-pagination {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.ow-pagination .pager {
+	width: 100%;
+	margin-bottom: 0;
+}
+.ow-pagination .pager li {
+	margin: 0 5px;
+	display: inline-block;
+}
+.ow-pagination .pager li:first-child,
+.ow-pagination .pager li:last-child {
+	float: none;
+}
+.ow-pagination .pager li a {
+	background-color: transparent;
+	border: 1px solid transparent;
+	border-radius: 0;
+	color: #ffb215;
+	font-size: 16px;
+	font-weight: bold;
+	width: 26px;
+	height: 46px;
+	position: relative;
+	padding: 0;
+	text-align: center;
+	line-height: 46px;
+}
+.ow-pagination .pager li a::before { 
+	background-color: #ffb215;
+	content: "";
+	height: 2px;
+	width: 13px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	opacity: 0;
+	top: 7px;
+}
+.ow-pagination .pager li:first-child a::before,
+.ow-pagination .pager li:last-child a::before {
+	display: none;
+}
+.ow-pagination .pager li a:hover::before { 
+	opacity: 1;
+}
+.ow-pagination .pager li:first-child a,
+.ow-pagination .pager li:last-child a {
+	border: 1px solid rgba(35,35,35,0.5);
+	font-size: 18px;
+	color: #232323;
+	float: none;
+	line-height: 44px;
+	width: 46px;
+	margin: 0 15px;
+}
+.ow-pagination .pager li:first-child a:hover,
+.ow-pagination .pager li:last-child a:hover {
+	background-color: #232323;
+	color: #fff;
+}
+
+	/* [ + Responsive ] */
+
+
+/* -- min-width: 1200 */
+@media (min-width: 1200px) {
+	.container {
+		width: 1200px;
+	}
+	
+	.ftr_widget_recent .recent-event a:nth-child(3n) {	 
+		margin-right: 0;
+	}
+}
+
+
+
+/* -- min-width: 768 */
+@media (min-width: 768px) {
+	
+}
+
+/* -- max-width: 1200px */
+@media (max-width: 1200px) {
+	
+}
+
+/* -- min-width: 992 to max-width: 1199 */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	/* - Widget */
+	.ftr_widget_recent .recent-event a:nth-child(2n) {	 
+		margin-right: 0;
+	}
+}
+
+
+/* -- min-width: 768 to max-width: 991 */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+
+
+/* --  max-width: 639 */
+@media (max-width: 639px) {
+	/* + Footer */
+	.widget-block { 
+		width: 100%;
+	}
+}
+
+
+
+
